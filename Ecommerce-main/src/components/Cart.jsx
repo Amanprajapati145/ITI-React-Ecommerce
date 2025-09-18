@@ -11,8 +11,6 @@ const Cart = () => {
     const { user } = useSelector((state) => state.auth);
 
 
-
-
     useEffect(() => {
         if (user) {
             dispatch(fetchCart(user.id));

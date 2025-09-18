@@ -36,10 +36,10 @@
       "name": "abdallah"
     },
     {
-      "id": "f251",
-      "name": "new user",
-      "email": "new@gmail.com",
-      "password": "New.123",
+      "id": "c73c",
+      "name": "Banti singh chouhan",
+      "email": "chouhanbanti224@gmail.com",
+      "password": "Banti@12345",
       "role": "user"
     }
   ],
@@ -98,6 +98,13 @@
       "image": "/products/cam.avif",
       "sellerId": "2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": "12ea",
+      "name": "Casio Watch",
+      "price": "20",
+      "category": "Electronics",
+      "image": "blob:http://localhost:5173/57249e71-22db-4c2c-af47-fcead45df38e"
     }
   ],
   "orders": [
@@ -358,21 +365,66 @@
       ],
       "status": "approved",
       "createdAt": "2025-02-22T19:04:46.938Z"
+    },
+    {
+      "id": "6d3e",
+      "userId": "111",
+      "items": [
+        {
+          "id": "a592",
+          "userId": "111",
+          "productId": "373d",
+          "name": "Watch",
+          "price": "1500",
+          "image": "/products/watch.jpg",
+          "quantity": 2,
+          "sellerId": null
+        },
+        {
+          "id": "66a6",
+          "userId": "111",
+          "productId": "1",
+          "name": "Laptop",
+          "price": 1000,
+          "image": "/products/Laptop.webp",
+          "quantity": 1,
+          "sellerId": null
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2025-05-27T12:33:57.744Z"
+    },
+    {
+      "id": "626f",
+      "userId": "111",
+      "items": [
+        {
+          "id": "ae4e",
+          "userId": "111",
+          "productId": "12ea",
+          "name": "Casio Watch",
+          "price": "20",
+          "image": "blob:http://localhost:5173/57249e71-22db-4c2c-af47-fcead45df38e",
+          "quantity": 1,
+          "sellerId": null
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2025-05-27T12:39:07.664Z"
     }
   ],
   "cart": [
     {
-      "id": "a592",
-      "userId": "111",
-      "productId": "373d",
-      "name": "Watch",
-      "price": "1500",
-      "image": "/products/watch.jpg",
+      "id": "f986",
+      "userId": "c73c",
+      "productId": "c5e1",
+      "name": "T-shirt",
+      "price": "50",
+      "image": "/products/shirt.webp",
       "quantity": 1
     },
     {
-      "id": "66a6",
-      "userId": "111",
+      "id": "99f9",
       "productId": "1",
       "name": "Laptop",
       "price": 1000,
